@@ -98,7 +98,7 @@ body {
   &__image--drawer {
     width: 100%;
     border-top-right-radius: 1rem;
-    border-top-left-radius:1rem ;
+    border-top-left-radius: 1rem;
     border-bottom-left-radius: 1rem;
     @media only screen and (max-width: $bp-large) {
       border-bottom-left-radius: 0rem;
@@ -323,5 +323,30 @@ body {
   }
   &--share-btn {
     fill: #ffffff;
+  }
+}
+
+.attribution {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-content: center;
+  flex-wrap: wrap;
+  margin-top: 2rem;
+  letter-spacing: 0.2rem;
+  color: var(--color-grayish-blue);
+  &__sent:link,
+  &__sent:visited {
+    color: var(--color-desaturated-dark-blue);
+    text-decoration: none;
+    margin-left: 0.3rem;
+  }
+  @media only screen and (max-width: $bp-large) {
+    width: 35rem;
+    margin-left: -5rem;
+  }
+  @media only screen and (max-width: $bp-medium) {
+    width: 27rem;
+    margin-left: 5rem;
   }
 }

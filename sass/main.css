@@ -495,4 +495,44 @@ body {
 .mobile__action--share-btn {
   fill: #ffffff;
 }
+
+.attribution {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin-top: 2rem;
+  letter-spacing: 0.2rem;
+  color: var(--color-grayish-blue);
+}
+
+.attribution__sent:link, .attribution__sent:visited {
+  color: var(--color-desaturated-dark-blue);
+  text-decoration: none;
+  margin-left: 0.3rem;
+}
+
+@media only screen and (max-width: 78.75em) {
+  .attribution {
+    width: 35rem;
+    margin-left: -5rem;
+  }
+}
+
+@media only screen and (max-width: 69em) {
+  .attribution {
+    width: 27rem;
+    margin-left: 5rem;
+  }
+}
 /*# sourceMappingURL=main.css.map */
