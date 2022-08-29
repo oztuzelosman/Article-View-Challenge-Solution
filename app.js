@@ -18,16 +18,16 @@ if (window.matchMedia("(min-width: 1260px)").matches) {
     changingSect.innerHTML = `<div class="mobile__action">
     <p class="mobile__action--text">Share</p>
     <button class="mobile__action--fb">
-      <img src="/images/icon-facebook.svg" alt="" />
+      <img src="images/icon-facebook.svg" alt="" />
     </button>
     <button class="mobile__action--tw">
-      <img src="/images/icon-twitter.svg" alt="" />
+      <img src="images/icon-twitter.svg" alt="" />
     </button>
     <button class="mobile__action--pt">
-      <img src="/images/icon-pinterest.svg" alt="" />
+      <img src="images/icon-pinterest.svg" alt="" />
     </button>
     <button id="mblShr" class="mobile__action--share">
-      <img  class="mobile__action--share-btn" src="/images/icon-share.svg" alt="" />
+      <img  class="mobile__action--share-btn" src="images/icon-share.svg" alt="" />
     </button>
     </div>`;
     changingSect.classList.toggle("card__text--user");
